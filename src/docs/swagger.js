@@ -6,7 +6,7 @@ const options = {
     info: {
       title: 'Wild Carambar API',
       version: '1.0.0',
-      description: 'API de blagues Carambar 🍬'
+      description: 'API de blagues Carambar'
     },
     servers: [
       { url: 'http://localhost:5000/api/v1' }

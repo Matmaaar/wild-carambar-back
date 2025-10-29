@@ -19,9 +19,6 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, async () => {
   try {
     await sequelize.sync();
-    console.log("✅ Base de données synchronisée");
-    console.log(`🚀 Serveur lancé sur http://localhost:${PORT}`);
-    console.log(`📘 Swagger dispo sur http://localhost:${PORT}/api-docs`);
   } catch (err) {
     console.error("❌ Erreur lors de la connexion à la base", err);
   }
